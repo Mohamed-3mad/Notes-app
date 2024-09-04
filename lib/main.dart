@@ -78,7 +78,7 @@ class _MyAppState extends State<MyApp> {
         "filterfirestore": (context) => const FilterFireStore(),
       },
       debugShowCheckedModeBanner: false,
-      home:const LoginPage(),
+      home:const LoginPage(git),
 
        // (FirebaseAuth.instance.currentUser != null &&
        //        FirebaseAuth.instance.currentUser!.emailVerified)
